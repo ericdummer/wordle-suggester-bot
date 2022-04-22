@@ -9,7 +9,7 @@ To rebuild it after a Docker change:
 
 To connect to the container (using bash)
 
-```docker exec -it docker-php-composer-core-1 /bin/bash```
+```docker exec -it wordle-suggester-bot-core-1 /bin/bash```
 
 ## tests
 To run tests (when connected to the container)
