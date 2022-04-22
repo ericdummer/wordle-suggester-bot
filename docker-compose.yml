@@ -1,0 +1,19 @@
+version: '0.9'
+
+services:
+
+  core:
+    build:
+      context: .
+    ports:
+      - 80
+      - 443
+    environment:
+      COMPOSER_PROCESS_TIMEOUT: 1200
+      COMPOSER_MEMORY_LIMIT: -1
+      XDEBUG_MODE: "off"
+      XDEBUG_CONFIG: client_host=host.docker.internal
+    volumes:
+      - ./:/var/www/html
+      # Output/Cache Directories
+      - ./logs:/var/www/Logs

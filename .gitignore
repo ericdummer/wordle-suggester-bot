@@ -1,0 +1,24 @@
+**/vendor/**
+
+*.vscode
+.buildpath
+.metadata
+.project
+.settings
+
+#Intlelij or PHPStorm
+.idea/*
+/vendor/
+
+# Build artifacts
+build/*
+**/build.tar.gz
+
+# PHP Archives
+*.phar
+
+# Ignore phpunit result caches
+*.phpunit.result.cache
+
+# Misc
+*.rnd
