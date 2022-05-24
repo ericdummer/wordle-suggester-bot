@@ -2,7 +2,10 @@
   "name": "ericdummer/docker-php-composer",
   "description": "template repo to create a php project",
   "scripts": {
-    "test": "phpunit"
+    "test": "phpunit",
+    "play": "@php new-game.php",
+    "suggester": "@php get-suggestions.php",
+    "statistics": "@php run-statistics.php"
   },
   "authors": [
     {

@@ -1,0 +1,5 @@
+word ,mm-dd-yyyy
+shown,04-27-2022
+zesty,04-28-2022
+hairy,05-03-2022
+

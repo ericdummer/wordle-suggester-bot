@@ -10,8 +10,10 @@
          processIsolation="false"
          stopOnFailure="false"
 >
-    <testsuites>
-        <testsuite name="Test Suite">
+	<php>
+        <ini name="memory_limit" value="-1"/>
+	</php>
+    <testsuites> <testsuite name="Test Suite">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>
